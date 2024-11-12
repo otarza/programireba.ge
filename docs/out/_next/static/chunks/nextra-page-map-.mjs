@@ -27,24 +27,6 @@ export const pageMap = [{
   children: [{
     data: sql_meta
   }, {
-    name: "ch0",
-    route: "/sql/ch0",
-    frontMatter: {
-      "sidebarTitle": "Ch0"
-    }
-  }, {
-    name: "ch1",
-    route: "/sql/ch1",
-    frontMatter: {
-      "sidebarTitle": "Ch1"
-    }
-  }, {
-    name: "ch2",
-    route: "/sql/ch2",
-    frontMatter: {
-      "sidebarTitle": "Ch2"
-    }
-  }, {
     name: "index",
     route: "/sql",
     frontMatter: {
