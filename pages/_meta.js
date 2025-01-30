@@ -1,5 +1,7 @@
 export default {
-    index: "დასაწყისი",
+    index: {
+      name: "დასაწყისი",
+    },
     html: { "title": "HTML" },
     tools: { "title": "იარაღები" },
     blog: { "title": "ბლოგი" },

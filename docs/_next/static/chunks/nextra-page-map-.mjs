@@ -48,7 +48,8 @@ export const pageMap = [{
   name: "index",
   route: "/",
   frontMatter: {
-    "sidebarTitle": "Index"
+    "title": "პროგრამირება და ვებ ტექნოლოგიები",
+    "sidebarTitle": "დასაწყისი"
   }
 }, {
   name: "tools",
