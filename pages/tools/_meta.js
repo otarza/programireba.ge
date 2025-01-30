@@ -3,5 +3,6 @@ export default {
     {
         "name": "იარაღები", 
     },
-    "code-editor": "კოდის ედიტორი"
+    "code-editor": "კოდის ედიტორი",
+    "git": "Git / Github"
   }

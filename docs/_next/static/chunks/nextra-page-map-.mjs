@@ -1,10 +1,23 @@
 import meta from "../../../pages/_meta.js";
+import blog_meta from "../../../pages/blog/_meta.js";
 import html_meta from "../../../pages/html/_meta.js";
-import javascript_meta from "../../../pages/javascript/_meta.js";
-import sql_meta from "../../../pages/sql/_meta.js";
 import tools_meta from "../../../pages/tools/_meta.js";
 export const pageMap = [{
   data: meta
+}, {
+  name: "blog",
+  route: "/blog",
+  children: [{
+    data: blog_meta
+  }, {
+    name: "index",
+    route: "/blog",
+    frontMatter: {
+      "title": "ბლოგის სტატიები",
+      "sidebarTitle": "სტატიები",
+      "asIndexPage": true
+    }
+  }]
 }, {
   name: "html",
   route: "/html",
@@ -26,7 +39,7 @@ export const pageMap = [{
     name: "index",
     route: "/html",
     frontMatter: {
-      "title": "HTML",
+      "title": "HTML - ის სახელმძღვანელო",
       "sidebarTitle": "HTML",
       "asIndexPage": true
     }
@@ -38,30 +51,6 @@ export const pageMap = [{
     "sidebarTitle": "Index"
   }
 }, {
-  name: "javascript",
-  route: "/javascript",
-  children: [{
-    data: javascript_meta
-  }, {
-    name: "index",
-    route: "/javascript",
-    frontMatter: {
-      "sidebarTitle": "Index"
-    }
-  }]
-}, {
-  name: "sql",
-  route: "/sql",
-  children: [{
-    data: sql_meta
-  }, {
-    name: "index",
-    route: "/sql",
-    frontMatter: {
-      "sidebarTitle": "Index"
-    }
-  }]
-}, {
   name: "tools",
   route: "/tools",
   children: [{
@@ -71,6 +60,12 @@ export const pageMap = [{
     route: "/tools/code-editor",
     frontMatter: {
       "sidebarTitle": "Code Editor"
+    }
+  }, {
+    name: "git",
+    route: "/tools/git",
+    frontMatter: {
+      "sidebarTitle": "Git"
     }
   }, {
     name: "index",

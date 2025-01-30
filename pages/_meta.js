@@ -1,6 +1,6 @@
 export default {
     index: "დასაწყისი",
-    'გამარჯობა': {
-      type: 'separator'
-    },
+    html: { "title": "HTML" },
+    tools: { "title": "იარაღები" },
+    blog: { "title": "ბლოგი" },
   }
