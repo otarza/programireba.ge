@@ -36,6 +36,18 @@ export const pageMap = [{
       "sidebarTitle": "1 Tags"
     }
   }, {
+    name: "2-html-document-structure",
+    route: "/html/2-html-document-structure",
+    frontMatter: {
+      "sidebarTitle": "2 HTML Document Structure"
+    }
+  }, {
+    name: "3-text-elements",
+    route: "/html/3-text-elements",
+    frontMatter: {
+      "sidebarTitle": "3 Text Elements"
+    }
+  }, {
     name: "index",
     route: "/html",
     frontMatter: {
