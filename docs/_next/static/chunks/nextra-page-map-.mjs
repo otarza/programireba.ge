@@ -27,8 +27,7 @@ export const pageMap = [{
     name: "0-html-document",
     route: "/html/0-html-document",
     frontMatter: {
-      "title": "ბლოგის სტატიები",
-      "author": "otarza"
+      "sidebarTitle": "0 HTML Document"
     }
   }, {
     name: "1-tags",
@@ -47,6 +46,12 @@ export const pageMap = [{
     route: "/html/3-text-elements",
     frontMatter: {
       "sidebarTitle": "3 Text Elements"
+    }
+  }, {
+    name: "4-lists",
+    route: "/html/4-lists",
+    frontMatter: {
+      "sidebarTitle": "4 Lists"
     }
   }, {
     name: "index",
