@@ -27,7 +27,8 @@ export const pageMap = [{
     name: "0-html-document",
     route: "/html/0-html-document",
     frontMatter: {
-      "sidebarTitle": "0 HTML Document"
+      "title": "ბლოგის სტატიები",
+      "author": "otarza"
     }
   }, {
     name: "1-tags",
