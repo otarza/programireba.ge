@@ -36,6 +36,30 @@ export const pageMap = [{
       "sidebarTitle": "1 Tags"
     }
   }, {
+    name: "10-media",
+    route: "/html/10-media",
+    frontMatter: {
+      "sidebarTitle": "10 Media"
+    }
+  }, {
+    name: "11-iframe",
+    route: "/html/11-iframe",
+    frontMatter: {
+      "sidebarTitle": "11 Iframe"
+    }
+  }, {
+    name: "12-forms",
+    route: "/html/12-forms",
+    frontMatter: {
+      "sidebarTitle": "12 Forms"
+    }
+  }, {
+    name: "13-meta",
+    route: "/html/13-meta",
+    frontMatter: {
+      "sidebarTitle": "13 Meta"
+    }
+  }, {
     name: "2-html-document-structure",
     route: "/html/2-html-document-structure",
     frontMatter: {
@@ -76,6 +100,12 @@ export const pageMap = [{
     route: "/html/8-semantic-html",
     frontMatter: {
       "sidebarTitle": "8 Semantic HTML"
+    }
+  }, {
+    name: "9-tables",
+    route: "/html/9-tables",
+    frontMatter: {
+      "sidebarTitle": "9 Tables"
     }
   }, {
     name: "index",

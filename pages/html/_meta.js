@@ -10,4 +10,9 @@ export default {
     "6-hyperlinks": "ბმულები",
     "7-page-structure": "გვერდის სტრუქტურა",
     "8-semantic-html": "სემანტიკური HTML",
+    "9-tables": "ცხრილები",
+    "10-media": "მედია",
+    "11-iframe": "iframe",
+    "12-forms": "ფორმები",
+    "13-meta": "მეტა ინფორმაცია",
   }
