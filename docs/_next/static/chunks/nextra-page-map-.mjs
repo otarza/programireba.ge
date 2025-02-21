@@ -54,6 +54,30 @@ export const pageMap = [{
       "sidebarTitle": "4 Lists"
     }
   }, {
+    name: "5-images-and-attributes",
+    route: "/html/5-images-and-attributes",
+    frontMatter: {
+      "sidebarTitle": "5 Images and Attributes"
+    }
+  }, {
+    name: "6-hyperlinks",
+    route: "/html/6-hyperlinks",
+    frontMatter: {
+      "sidebarTitle": "6 Hyperlinks"
+    }
+  }, {
+    name: "7-page-structure",
+    route: "/html/7-page-structure",
+    frontMatter: {
+      "sidebarTitle": "7 Page Structure"
+    }
+  }, {
+    name: "8-semantic-html",
+    route: "/html/8-semantic-html",
+    frontMatter: {
+      "sidebarTitle": "8 Semantic HTML"
+    }
+  }, {
     name: "index",
     route: "/html",
     frontMatter: {
